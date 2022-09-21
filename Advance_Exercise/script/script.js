@@ -10,7 +10,7 @@ let d = '36';
 
 let e = 42;
 
-// will add the numbers but consider "number" as string.
+// will add the numbers but consider "number" as and insert them as is.
 sum = a+b+c+d+e;
 document.write(`The sum is ${sum}.<br><br>`)
 
