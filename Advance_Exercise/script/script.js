@@ -11,10 +11,12 @@ let d = "36";
 let e = 42;
 
 // will add the numbers but consider "number" as and insert them as is.
-sum = a + b + c + d + e;
+// Used Number() to convert it to number
+sum = a + b + Number(c) + Number(d) + e;
 document.write(`The sum is ${sum}.<br><br>`);
 
 // will multiply the numbers but consider "number" as string and insert them as is.
+// Used Number() to convert it to number
 let f = "1";
 
 let g = 15;
@@ -23,7 +25,7 @@ let h = 8;
 
 let i = "1";
 
-multiply = f * g * h * i;
+multiply = Number(f) * g * h * Number(i);
 document.write(`The result of multiplication is ${multiply}.<br><br>`);
 
 division = sum / multiply;
