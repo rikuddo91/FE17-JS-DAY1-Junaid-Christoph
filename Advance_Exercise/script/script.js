@@ -78,6 +78,8 @@ let withBob = people.slice(0, 5)
 withBob.push("Bob")
 console.log(withBob);
 
+
+
 /* ----------------------Advance Exercise 3---------------------*/
 
 // Output specific numbers from multidemensional Array - ${multi[row][col]}
