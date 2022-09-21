@@ -10,9 +10,11 @@ let d = '36';
 
 let e = 42;
 
+// will add the numbers but consider "number" as string.
 sum = a+b+c+d+e;
 document.write(`The sum is ${sum}.<br><br>`)
 
+// will multiply the numbers but consider "number" as string and insert them as is.
 let f = '1';
 
 let g = 15;
