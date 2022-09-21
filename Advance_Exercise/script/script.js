@@ -50,7 +50,10 @@ people.push("Junaid")
 console.table(people)
 
 // Using slice method to removed firs two elements 
-// people.slice(2) !!! DIDN'T WORK!!!
+/* people.slice(2) 
+console.table(people)
+!!! DIDN'T WORK!!!*/
+
 console.table(people.slice(2))
 
     // Alternate method
