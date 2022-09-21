@@ -42,8 +42,12 @@
 
         let fruit = "mango/cherries/kiwi/grapes/pear/peach/orange/lemon";
         let temp = new Array();
+
+        //Remove '/' with split method
         temp = fruit.split('/');
-        document.write(`${temp.join("<br>")}`)
-        
+
+        //Replace ',' with '<br>' with join method
+        document.write(`${temp.join("<br><br>")}`)
+
 
             /* ---------------------END---------------------*/
