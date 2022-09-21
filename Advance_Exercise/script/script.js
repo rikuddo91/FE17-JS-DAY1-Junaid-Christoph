@@ -53,6 +53,10 @@ console.table(people)
 // people.slice(2) !!! DIDN'T WORK!!!
 console.table(people.slice(2))
 
+    // Alternate method
+// temp2 = people.slice(2);
+// console.table(temp2)
+
 // Using indexOF to find index number of "Mary"
 console.log(people.indexOf("Mary"))
 
