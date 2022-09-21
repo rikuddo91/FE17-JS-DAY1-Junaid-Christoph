@@ -74,7 +74,8 @@ people2.splice(2, 1, "Elizabeth", "Anna");
 console.table(people2);
 
 // Adding new variable and assigning values accordingly
-withBob = people2 + ",Bob";
+let withBob = people.slice(0, 5)
+withBob.push("Bob")
 console.log(withBob);
 
 /* ----------------------Advance Exercise 3---------------------*/
